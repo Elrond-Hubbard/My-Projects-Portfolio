@@ -3,16 +3,26 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="d-flex border justify-content-between align-items-end">
-      <h1 className="mb-0">MICHAEL MARSOLO</h1>
-      <Navbar
-        links={[
-          <Link to="/">ABOUT</Link>,
-          <Link to="/work">WORK</Link>,
-          <Link to="/contact">CONTACT</Link>,
-          <Link to="/resume">RESUME</Link>,
-        ]}
-      />
+    <header className="col-12">
+      <div className="d-flex align-items-end row">
+        <h1 className="col-12 col-xl-6">{`< marsolo.codes />`}</h1>
+        <Navbar 
+          links={[
+            <Link className="" to="/">
+              ABOUT
+            </Link>,
+            <Link className="" to="/work">
+              WORK
+            </Link>,
+            <Link className="" to="/contact">
+              CONTACT
+            </Link>,
+            <Link className="" to="/resume">
+              RESUME
+            </Link>,
+          ]}
+        />
+      </div>
     </header>
   );
 }

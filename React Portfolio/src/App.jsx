@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Header />
-      <main>
-        <Outlet id="content" />
+      <main className="mx-auto">
+        <Outlet />
       </main>
       <Footer />
     </>
