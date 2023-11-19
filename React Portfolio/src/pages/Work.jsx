@@ -11,28 +11,18 @@ export default function Work() {
             url=""
             description="description"
           />
-          ;
           <Project
             project="project-2"
             name="NASA Image Browser"
             url=""
             description="description"
           />
-          ;
           <Project
             project="project-3"
             name="jSynth Synthesizer"
             url=""
             description="description"
           />
-          ;
-          <Project
-            project="project-4"
-            name="Project Name"
-            url=""
-            description="description"
-          />
-          ;
         </div>
       </section>
     </>

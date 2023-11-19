@@ -8,6 +8,9 @@ import Work from './pages/Work.jsx'
 import Contact from './pages/Contact.jsx'
 import Resume from './pages/Resume.jsx'
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
 const router = createBrowserRouter([
   {
     path: '/', 

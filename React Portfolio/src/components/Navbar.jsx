@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({ links }) {
   return (
-    <div id="navbar">
-        <Link id="navlink" to="/">ABOUT</Link>
-        <Link id="navlink" to="/work">WORK</Link>
-        <Link id="navlink" to="/contact">CONTACT</Link>
-        <Link id="navlink" to="/resume">RESUME</Link>
-    </div>
+    <nav className="d-flex mb-1 fs-5">
+      {links.map((link) => {
+        return <a className="mx-2">{link}</a>;
+      })}
+    </nav>
   );
 }
-
-
