@@ -1,3 +1,7 @@
+* {
+    max-width: 99.8vw;
+}
+
 header {
   background: #09080b;
 }
