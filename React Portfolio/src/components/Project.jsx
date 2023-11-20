@@ -9,7 +9,7 @@ export default function Project(props) {
       <div>{props.tech}</div>
       <div className="mt-auto p-2 d-flex justify-content-evenly">
         <a href={props.demoLink} target="_blank" className="btn btn-large btn-light">DEMO</a>
-        <a to={props.codeLink} target="_blank" className="btn btn-large btn-dark">CODE</a>
+        <a href={props.codeLink} target="_blank" className="btn btn-large btn-dark">CODE</a>
       </div>
     </div>
   );

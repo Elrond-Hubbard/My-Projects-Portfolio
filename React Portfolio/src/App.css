@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
+
 * {
     max-width: 99.8vw;
+    font-family: 'Urbanist'
 }
 
 body {
@@ -12,7 +15,7 @@ header {
 
 header h1 {
   font-size: 60px;
-  font-family: "Courier New", Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
   font-weight: normal;
   color: #d29741;
 }

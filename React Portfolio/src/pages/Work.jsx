@@ -4,20 +4,20 @@ export default function Work() {
   const projects = [
     {
       name: "SCCRM Healthcare",
-      image: "../public/assets/surgeon.png",
-      description: `Full-stack project built with MySQL. 
+      image: "/assets/surgeon.png",
+      description: `Full-stack project built with MySQL and Socket.io. 
       The app is focused on real-time display of hospital 
       patient vitals data. 
-      The site includes WebSocket functionality and a dynamic 
+      The site includes SMS alert functionality and a dynamic 
       pulse-oximetry display. 
       Login: 5555,  Password: 5. 
-      Use the /patsim endpoint to manipulate data.`,
-      demoLink: "",
-      codeLink: "",
+      Use the /patsim endpoint to manipulate vitals.`,
+      demoLink: "https://sccrm-healthcare-bbafb87ca81b.herokuapp.com/",
+      codeLink: "https://github.com/Elrond-Hubbard/Team-SCCRM-2",
     },
     {
       name: "jSynth Synthesizer",
-      image: "../public/assets/synth.png",
+      image: "/assets/synth.png",
       description:
         `jSynth is a musical instrument built with JavaScript 
         and the Tone.js library. Users can record and play back 
@@ -25,18 +25,18 @@ export default function Work() {
         and adjust playback tempo to their liking.  
         This work-in-progress will soon allow users to compose, 
         collaborate, and perform remotely over an Express server connection.`,
-      demoLink: "",
-      codeLink: "",
+      demoLink: "https://elrond-hubbard.github.io/jSynth2/",
+      codeLink: "https://github.com/Elrond-Hubbard/jSynth2",
     },
     {
       name: "NASA Browser",
-      image: "../public/assets/mars.png",
+      image: "/assets/mars.png",
       description: "Test",
       demoLink: "https://chrisdehaan.github.io/Team-SCCRM/mars-rover.html",
       codeLink: "",
     },
     {
-      name: "",
+      name: "Coming Soon",
       image: "",
       description: "",
       demoLink: "",
@@ -50,7 +50,7 @@ export default function Work() {
         <div className="py-5 d-flex justify-content-evenly">
           {projects.map((project) => {
             return (
-              <Project
+              <Project 
                 name={project.name}
                 image={project.image}
                 description={project.description} 
