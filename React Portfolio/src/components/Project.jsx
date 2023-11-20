@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 export default function Project(props) {
   return (
-    <div className="col-2 border">
-      <h3 className="text-center">{props.name}</h3>
+    <div id="projectCard" className="mt-5 d-flex flex-column col-2">
+      <h3 className="display-6 text-center">{props.name}</h3>
       <img className="img-fluid" src={props.image} />
       <p className="fs-5 p-2">{props.description}</p>
       <div>{props.tech}</div>
-      <div className="p-2 d-flex justify-content-evenly">
-        <button className="btn btn-large btn-success">DEMO</button>
-        <button className="btn btn-large btn-success">CODE</button>
+      <div className="mt-auto p-2 d-flex justify-content-evenly">
+        <a href={props.demoLink} target="_blank" className="btn btn-large btn-light">DEMO</a>
+        <a to={props.codeLink} target="_blank" className="btn btn-large btn-dark">CODE</a>
       </div>
     </div>
   );

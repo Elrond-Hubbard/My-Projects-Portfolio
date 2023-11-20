@@ -2,6 +2,10 @@
     max-width: 99.8vw;
 }
 
+body {
+  background-image: linear-gradient(to right, rgb(3, 8, 52), #09080b, #09080b);
+}
+
 header {
   background: #09080b;
 }
@@ -32,5 +36,10 @@ nav a:hover {
 main {
   min-height: 1000px;
   color: #d29741;
-  background-image: linear-gradient(to right, rgb(3, 8, 52), #09080b, #09080b);
+}
+
+#projectCard {
+  color:#d29741;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
 }
