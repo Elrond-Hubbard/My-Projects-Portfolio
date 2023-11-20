@@ -23,7 +23,12 @@ export default function Contact() {
     <section className="d-flex">
       <div className="mt-5 col-xl-4 col-md-6 col-12 border container text-center">
         <h1>CONTACT ME:</h1>
-        <form className="form d-flex flex-column" onSubmit={handleFormSubmit}>
+        <form
+          action="https://formsubmit.co/marsolomichael@gmail.com"
+          method="POST"
+          className="form d-flex flex-column"
+          onSubmit={handleFormSubmit}
+        >
           <input
             className="my-3"
             value={email}
