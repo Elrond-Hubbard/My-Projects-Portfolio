@@ -20,8 +20,8 @@ export default function Contact() {
   };
 
   return (
-    <section className="d-flex">
-      <div className="mt-5 col-xl-4 col-md-6 col-12 border container text-center">
+    <section className="w-100 d-flex">
+      <div className="col-xl-4 col-md-6 col-12 border container text-center">
         <h1>CONTACT ME:</h1>
         <form
           action="https://formsubmit.co/marsolomichael@gmail.com"
@@ -74,7 +74,7 @@ export default function Contact() {
             type="text"
             placeholder="message"
           />
-          <button className="btn btn-dark" type="submit">
+          <button className="mb-2 btn btn-dark" type="submit">
             Submit
           </button>
         </form>

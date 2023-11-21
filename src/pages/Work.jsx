@@ -23,7 +23,7 @@ export default function Work() {
         and the Tone.js library. Users can record and play back 
         note sequences, manipulate a full suite of synth parameters, 
         and adjust playback tempo to their liking.  
-        This work-in-progress will soon allow users to compose, 
+        This work-in-progress personal project will soon allow users to compose, 
         collaborate, and perform remotely over an Express server connection.`,
       demoLink: "https://elrond-hubbard.github.io/jSynth2/",
       codeLink: "https://github.com/Elrond-Hubbard/jSynth2",
@@ -31,7 +31,11 @@ export default function Work() {
     {
       name: "NASA Browser",
       image: "/assets/mars.png",
-      description: "Test",
+      description: `Developed and deployed the Mars Rover page for this image browsing project. 
+      The site calls various NASA API endpoints to deliver thousands of astronomical images to the user. 
+      The page leverages jQuery to simplify DOM traversal and event handling. Users can search for images 
+      taken on specific dates in a rover's mission, and even filter the results based on which on-board 
+      camera took the photo.`,
       demoLink: "https://chrisdehaan.github.io/Team-SCCRM/mars-rover.html",
       codeLink: "",
     },
@@ -47,7 +51,7 @@ export default function Work() {
   return (
     <>
       <section className="">
-        <div className="py-5 d-flex justify-content-evenly">
+        <div className="py-5 d-flex flex-wrap justify-content-evenly">
           {projects.map((project) => {
             return (
               <Project 

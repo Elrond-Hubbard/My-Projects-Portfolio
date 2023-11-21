@@ -1,5 +1,7 @@
+import ResumeCard from "../components/resumeCard"
+
 export default function Resume() {
     return (
-        <h2>RESUME</h2>
+        <ResumeCard />
     )
 }

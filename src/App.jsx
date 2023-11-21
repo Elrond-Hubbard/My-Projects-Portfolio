@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mx-auto">
+      <main className="mx-auto d-flex align-items-center">
         <Outlet />
       </main>
       <Footer />
