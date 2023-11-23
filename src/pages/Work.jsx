@@ -37,7 +37,7 @@ export default function Work() {
       taken on specific dates in a rover's mission, and even filter the results based on which on-board 
       camera took the photo.`,
       demoLink: "https://chrisdehaan.github.io/Team-SCCRM/mars-rover.html",
-      codeLink: "",
+      codeLink: "https://github.com/ChrisDeHaan/Team-SCCRM",
     },
     {
       name: "Coming Soon",
