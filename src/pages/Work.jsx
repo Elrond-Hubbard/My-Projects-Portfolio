@@ -18,8 +18,7 @@ export default function Work() {
     {
       name: "jSynth Synthesizer",
       image: "/assets/synth.png",
-      description:
-        `jSynth is a musical instrument built with JavaScript 
+      description: `jSynth is a musical instrument built with JavaScript 
         and the Tone.js library. Users can record and play back 
         note sequences, manipulate a full suite of synth parameters, 
         and adjust playback tempo to their liking.  
@@ -27,6 +26,15 @@ export default function Work() {
         collaborate, and perform remotely over an Express server connection.`,
       demoLink: "https://elrond-hubbard.github.io/jSynth2/",
       codeLink: "https://github.com/Elrond-Hubbard/jSynth2",
+    },
+    {
+      name: "Programon Palace",
+      image: "/assets/programon.png",
+      description: `Prográmon Palace leverages MongoDB and Express to support discrete user accounts and card trading features, and
+      React's state management system for complex realtime interactions. The project aims to establish a scaleable baseline for what 
+      could eventually be built into an entertaining and market-ready gaming product. Login: "AshKetchum", Password: "missingno"`,
+      demoLink: "https://programon-palace-c417e58495b0.herokuapp.com/",
+      codeLink: "https://github.com/Bunde20/Team-SCCRM-3",
     },
     {
       name: "NASA Browser",
@@ -39,13 +47,6 @@ export default function Work() {
       demoLink: "https://chrisdehaan.github.io/Team-SCCRM/mars-rover.html",
       codeLink: "https://github.com/ChrisDeHaan/Team-SCCRM",
     },
-    {
-      name: "Coming Soon",
-      image: "",
-      description: "",
-      demoLink: "",
-      codeLink: "",
-    },
   ];
 
   return (
@@ -54,11 +55,11 @@ export default function Work() {
         <div className="py-5 d-flex flex-wrap justify-content-evenly">
           {projects.map((project) => {
             return (
-              <Project 
+              <Project
                 name={project.name}
                 image={project.image}
-                description={project.description} 
-                demoLink={project.demoLink} 
+                description={project.description}
+                demoLink={project.demoLink}
                 codeLink={project.codeLink}
               />
             );
