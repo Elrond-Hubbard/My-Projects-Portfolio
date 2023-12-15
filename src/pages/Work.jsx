@@ -18,7 +18,8 @@ export default function Work() {
     {
       name: "jSynth Synthesizer",
       image: "/assets/synth.png",
-      description: `jSynth is a musical instrument built with JavaScript 
+      description:
+        `jSynth is a musical instrument built with JavaScript 
         and the Tone.js library. Users can record and play back 
         note sequences, manipulate a full suite of synth parameters, 
         and adjust playback tempo to their liking.  
@@ -55,11 +56,11 @@ export default function Work() {
         <div className="py-5 d-flex flex-wrap justify-content-evenly">
           {projects.map((project) => {
             return (
-              <Project
+              <Project 
                 name={project.name}
                 image={project.image}
-                description={project.description}
-                demoLink={project.demoLink}
+                description={project.description} 
+                demoLink={project.demoLink} 
                 codeLink={project.codeLink}
               />
             );
