@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import "./style.css"
 
 export default function Project(props) {
   return (
-    <div id="projectCard" className="my-5 d-flex flex-column col-10 col-lg-4 col-xl-2">
+    <div id="projectCard" className="my-5 d-flex flex-column">
       <h3 className="display-6 text-center">{props.name}</h3>
       <img className="img-fluid" src={props.image} />
       <p className="fs-5 p-2">{props.description}</p>

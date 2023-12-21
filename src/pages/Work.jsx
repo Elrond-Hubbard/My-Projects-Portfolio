@@ -52,7 +52,7 @@ export default function Work() {
 
   return (
     <>
-      <section className="">
+      <section className="w-100">
         <div className="py-5 d-flex flex-wrap justify-content-evenly">
           {projects.map((project) => {
             return (
