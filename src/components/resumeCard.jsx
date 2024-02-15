@@ -3,7 +3,7 @@ export default function ResumeCard() {
     <>
       <div className="mx-auto align-items-center col-10 col-xl-4">
 
-      <a className="fs-5" href="/assets/resume.pdf" download="michael-marsolo-resume">Download resume</a>
+      <a className="fs-5" href="/assets/Michael_Marsolo_Webdev_Resume.pdf" download="michael-marsolo-resume">Download resume</a>
 
         <h1>Michael James Marsolo</h1>
         <p>
