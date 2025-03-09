@@ -15,8 +15,11 @@ export default function About() {
       "MongoDB",
       "Express",
       "React",
+      "Vue",
+      "Laravel",
       "Node",
       "MySQL",
+      "Apache",
       "Bootstrap",
     ],
   };

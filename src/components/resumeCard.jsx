@@ -18,8 +18,7 @@ export default function ResumeCard() {
 
         <h1>Technical Skills:</h1>
         <p>
-          JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GitHub, MongoDB, MySQL,
-          Express, React, Node, Handlebars, jQuery, Bootstrap
+        JavaScript, HTML, CSS, Git, React, Vue, PHP, Laravel, MongoDB, Express, Node, Apache, MySQL
         </p>
 
         <h1>Work Experience</h1>
